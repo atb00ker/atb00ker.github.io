@@ -1,0 +1,34 @@
+/**************************
+* Home Section Styles
+***************************/
+#homeContainer{
+    position: relative;
+    width: 100%;
+    background-color: #efefef;
+    height:100vh;
+    overflow: hidden;
+    background-image: url("../../assets/images/bg-creator.webp");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#introBox{
+    background-color: rgba(255,255,255,0.8);
+    @include border-shadow(0px, 2px, 87px, -17px, rgba(0,0,0,0.61));
+    padding: 15px 5px 15px 5px;
+}
+#creator-image{
+    background-color: #efefef;
+    border-radius: 49%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.contactMe{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}

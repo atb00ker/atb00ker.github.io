@@ -1,0 +1,57 @@
+@media all and (min-width:960px) { /*Desktop Optimisation*/
+    /**************************
+    * General Helpers
+    ***************************/
+    .section-header{
+        font-size: 70px;
+    }
+    /**************************
+    * Home Section
+    ***************************/
+    #introBox{
+        width:480px;
+        height:270px;
+    }
+    #creator-image{
+        width: 185px;
+        height: 185px;
+    }
+}
+@media all and (min-width: 540px) and (max-width: 959px){ /*Tablet Optimisation*/
+    /**************************
+    * General Helpers
+    ***************************/
+    .section-header{
+        font-size: 55px;
+    }
+    /**************************
+    * Home Section
+    ***************************/
+    #introBox{
+        width:420px;
+    	height:250px;
+    }
+    #creator-image{
+        width: 160px;
+        height: 160px;
+    }
+}
+@media all and (max-width: 539px) { /*Mobile Optimisation*/
+    /**************************
+    * General Helpers
+    ***************************/
+    .section-header{
+        font-size: 37px;
+    }
+    /**************************
+    * Home Section
+    ***************************/
+    #introBox{
+    	width:320px;
+    	height:200px;
+    }
+    #creator-image{
+        width: 120px;
+        height: 120px;
+    }
+}

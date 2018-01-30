@@ -1,0 +1,49 @@
+/**************************
+* General Sassy Style Helpers
+***************************/
+/* Variables */
+$section-header-font: 'Saira', sans-serif;
+
+/* Mixins */
+@mixin border-radius($radius){
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;    
+}
+@mixin border-shadow($horizontal-length, $vertical-length, $blur-radius, $spread-radius, $color-rgba){
+    -webkit-box-shadow: $horizontal-length $vertical-length $blur-radius $spread-radius $color-rgba;
+    -moz-box-shadow: $horizontal-length $vertical-length $blur-radius $spread-radius $color-rgba;
+    box-shadow: $horizontal-length $vertical-length $blur-radius $spread-radius $color-rgba;
+}
+/**************************
+* General Style Helpers
+***************************/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.parent-center{
+    position:absolute;
+	margin:auto;
+	left:0;right:0;
+	top:0;bottom:0;
+	width:500px;
+	height:500px;
+}
+.section-header{
+    font-family: $section-header-font;
+    overflow: hidden;
+    margin-top: 8%!important;
+    word-wrap: break-word;
+}
+.text-center{
+    float: none;
+    text-align: center;
+}
+.boxCentered {
+    display: inline-block;
+    float: none;
+    text-align: center;
+}
