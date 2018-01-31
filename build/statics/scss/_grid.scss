@@ -1,20 +1,32 @@
-@media all and (min-width:960px) { /*Desktop Optimisation*/
+@media all and (min-width: 1920px) { /* Very Large Device Optimisation*/
     /**************************
-    * General Helpers
+    * Home Section
     ***************************/
-    .section-header{
-        font-size: 70px;
+    #homeContainer{
+        background-image: url("../../assets/images/bg-creator.webp");
     }
+}
+@media all and (min-width:1080px) and (max-width: 1919px) { /* Large Device Optimisation*/
+    /**************************
+    * Home Section
+    ***************************/
+    #homeContainer{
+        background-image: url("../../assets/images/bg-creator-1920.webp");
+    }
+}
+@media all and (min-width:960px) and (max-width: 1079px) { /*Desktop Optimisation*/
     /**************************
     * Home Section
     ***************************/
     #introBox{
-        width:480px;
-        height:270px;
+        margin-right: 10vw;
     }
     #creator-image{
         width: 185px;
         height: 185px;
+    }
+    #homeContainer{
+        background-image: url("../../assets/images/bg-creator-1080.webp");
     }
 }
 @media all and (min-width: 540px) and (max-width: 959px){ /*Tablet Optimisation*/
@@ -28,12 +40,16 @@
     * Home Section
     ***************************/
     #introBox{
-        width:420px;
-    	height:250px;
+        margin-right: 10vw;
+        width:360px;
+        height:360px;
     }
     #creator-image{
         width: 160px;
         height: 160px;
+    }
+    #homeContainer{
+        background-image: url("../../assets/images/bg-creator-1080.webp");
     }
 }
 @media all and (max-width: 539px) { /*Mobile Optimisation*/
@@ -47,11 +63,20 @@
     * Home Section
     ***************************/
     #introBox{
-    	width:320px;
-    	height:200px;
+        float: none;
+        margin-right: 0;
+        position:absolute;
+        margin:auto;
+        left:0;right:0;
+        top:0;bottom:0;
+        width:320px;
+        height:320px;
     }
     #creator-image{
         width: 120px;
         height: 120px;
+    }
+    #homeContainer{
+        background-image: url("../../assets/images/bg-creator-1080.webp");
     }
 }

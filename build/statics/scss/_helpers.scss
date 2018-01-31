@@ -1,15 +1,12 @@
 /**************************
 * General Sassy Style Helpers
 ***************************/
-/* Variables */
-$section-header-font: 'Saira', sans-serif;
-
 /* Mixins */
 @mixin border-radius($radius){
     -webkit-border-radius: $radius;
     -moz-border-radius: $radius;
     -ms-border-radius: $radius;
-    border-radius: $radius;    
+    border-radius: $radius;
 }
 @mixin border-shadow($horizontal-length, $vertical-length, $blur-radius, $spread-radius, $color-rgba){
     -webkit-box-shadow: $horizontal-length $vertical-length $blur-radius $spread-radius $color-rgba;
@@ -32,12 +29,6 @@ body {
 	width:500px;
 	height:500px;
 }
-.section-header{
-    font-family: $section-header-font;
-    overflow: hidden;
-    margin-top: 8%!important;
-    word-wrap: break-word;
-}
 .text-center{
     float: none;
     text-align: center;
@@ -46,4 +37,30 @@ body {
     display: inline-block;
     float: none;
     text-align: center;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    background-color: #555;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }

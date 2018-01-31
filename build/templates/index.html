@@ -26,107 +26,99 @@
     <link href="assets/css/owl.carousel.min.css" rel="stylesheet" media="all" />
     <!-- Custom Cascading Style Sheets -->
     <link href="assets/css/main.css" rel="stylesheet" media="all" />
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Saira" rel="stylesheet">
+    <!-- Font Awesome Script  -->
+    <script async src="https://use.fontawesome.com/1bad04d961.js"></script>
 </head>
-    <body>
-        <main>
-            <section id='homeContainer'>
-                <div class='parent-center container' id='introBox'>
-                    <img class='row' id="creator-image" alt='Ajay Tripathi' src="./assets/images/creator-image.webp" />
-                    <div class='row contactMe text-center'>
-                        <a role="link" class='col-3-sm contactMe' href='https://github.com/ATB00ker'><img role='img' alt='Visit Github Profile' src='./assets/images/icon/github.webp' width='50px' height='50px'></a>
-                        <a role="link" class='col-3-sm contactMe' href='https://www.facebook.com/ajay39in'><img role='img' alt='Drop a message' src='./assets/images/icon/facebook.svg' width='50px' height='50px'></a>
-                        <a role="link" class='col-3-sm contactMe' href='mailto:ajay39in@gmail.com'><img role='img' alt='Drop a Mail' src='./assets/images/icon/gmail.svg' width='60px' height='60px'></a>
-                        <a role="link" class='col-3-sm contactMe' href='https://web.telegram.org/#/im?p=@ATB00ker'><img role='img' alt='Drop a text' src='./assets/images/icon/telegram.svg' width='50px' height='50px'></a>
+    <body onload='fetchData()'>
+        <section id='homeContainer'>
+            <div onclick='takeToContactInfo();' id='introBox'>
+                <img class='row' id="creator-image" alt='Ajay Tripathi' src="./assets/images/creator-image.webp" />
+                <div id='introText'>
+                    <b>atb00ker</b>, <i>developer</i>
+                    <span style="text-align: center; width: 50%;"><hr></span>
+                </div>
+                <div class="tooltip" id='introQuote'>“A person who won’t read is no better than a person who can’t read.”
+                    <span class="tooltiptext"> Refresh for more wisdom! </span>
+                    <br>
+                    <div id='introSpeaker'>— Mark Twain</div>
+                </div>
+            </div>
+        </section>
+        <section class='container'>
+            <div class='row'>
+                <div class='col-12 section-header'>SKILLS</div>
+            </div>
+            <div id='skillsContainer' class='row'></div>
+            <div class='row'>
+                <div class='col-12 section-header'>EXPERIENCE</div>
+            </div>
+            <div class='row'>
+                <div class='col-12 owl-carousel'>
+                    <div class="item">
+                        <div class='expHolder'>
+                            <div class='row'><div class='expTitle col-11 col-11-sm'>Front-End Development</div></div>
+                            <div class='row'><p class='expBody col-11 col-11-sm'>I have worked on many front-end projects and i can comfortably work on <b> HTML, CSS, JavaScript, JQuery, KUTE.Js. </b></p></div>
+                            <div class='row'>
+                                <a class='col-5 col-5-sm expLink' title='Code: Exposure Project' href='https://github.com/ATB00ker/Exposure.github.io'>Exposure</a>
+                                <a class='col-5 col-5-sm expLink' title='Code: Portfolio' href='https://github.com/ATB00ker/portfolio'>Portfolio</a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </section>
-            <!-- Google Fonts -->
-            <link href="https://fonts.googleapis.com/css?family=Saira" rel="stylesheet">
-            <section class='container'>
-                <div class='row'>
-                    <div class='col-12 section-header'>SKILLS</div>
-                </div>
-                <div class='row'>
-                    <div class='col-12 owl-carousel'>
-                        <div class="item skill-item text-center"><img alt='html5' src='./assets/images/skills/html.svg'/>HTML 5</div>
-                        <div class="item skill-item text-center"><img alt='css3' src='./assets/images/skills/css.svg'/>CSS 3</div>
-                        <div class="item skill-item text-center"><img alt='JavaScript' src='./assets/images/skills/js.webp'/>JavaScript</div>
-                        <div class="item skill-item text-center"><img alt='Python' src='./assets/images/skills/python.webp'/>Python</div>
-                        <div class="item skill-item text-center"><img alt='C++' src='./assets/images/skills/cpp.svg'/>C++</div>
-                        <div class="item skill-item text-center"><img alt='nodeJS' src='./assets/images/skills/nodeJs.webp'/>NodeJs</div>
-                        <div class="item skill-item text-center"><img alt='kuteJS' src='./assets/images/skills/kuteJs.webp'/>KuteJs</div>
-                        <div class="item skill-item text-center"><img alt='JQuery' src='./assets/images/skills/JQuery.webp'/>JQuery</div>
-                        <div class="item skill-item text-center"><img alt='kuteJS' src='./assets/images/skills/mySql.svg'/>MySQL</div>
+                    <div class="item">
+                        <div class='expHolder'>
+                            <div class='row'><div class='expTitle col-11 col-11-sm'>Node.Js</div></div>
+                            <div class='row'><p class='expBody col-11 col-11-sm'>I have worked on worked on Node.Js with <b>Express Framework</b> using <b> Pug </b> as the view engine.</p></div>
+                            <div class='row'>
+                                <a class='col-11 col-11-sm expLink' title='Code: Website on Node.Js' href='https://github.com/ATB00ker/theAmityAndroidClub'>Android Club</a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class='row'>
-                    <div class='col-12 section-header'>EXPERIENCE</div>
-                </div>
-                <div class='row'>
-                    <div class='col-12 owl-carousel'>
-                        <div class="item">
-                            <div class='expHolder'>
-                                <div class='row'><div class='expTitle col-11 col-11-sm'>Front-End Development</div></div>
-                                <div class='row'><p class='expBody col-11 col-11-sm'>I have worked on many front-end projects and i can comfortably work on <b> HTML, CSS, JavaScript, JQuery, KUTE.Js. </b></p></div>
-                                <div class='row'>
-                                    <a class='col-5 col-5-sm expLink' title='Code: Exposure Project' href='https://github.com/ATB00ker/Exposure.github.io'>Exposure</a>
-                                    <a class='col-5 col-5-sm expLink' title='Code: Portfolio' href='https://github.com/ATB00ker/portfolio'>Portfolio</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class='expHolder'>
-                                <div class='row'><div class='expTitle col-11 col-11-sm'>Node.Js</div></div>
-                                <div class='row'><p class='expBody col-11 col-11-sm'>I have worked on worked on Node.Js with <b>Express Framework</b> using <b> Pug </b> as the view engine.</p></div>
-                                <div class='row'>
-                                    <a class='col-11 col-11-sm expLink' title='Code: Website on Node.Js' href='https://github.com/ATB00ker/theAmityAndroidClub'>Android Club</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class='expHolder'>
-                                <div class='row'><div class='expTitle col-11 col-11-sm'>C/C++</div></div>
-                                <div class='row'><p class='expBody col-11 col-11-sm'>I am comfortable & confident with using C/C++. I have done basic network management using C.</p></div>
-                                <div class='row'>
-                                    <a class='col-11 col-11-sm expLink' title='Code: High School Final Project' href='https://github.com/ATB00ker/highSchoolProjectSample'>Bank Project</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class='expHolder'>
-                                <div class='row'><div class='expTitle col-11 col-11-sm'>Critical Rendering Path</div></div>
-                                <div class='row'><p class='expBody col-11 col-11-sm'>I have done a course on CRP from Udacity & this website is optimisted for slow networks!</p></div>
-                                <div class='row'>
-                                    <a class='col-11 col-11-sm expLink' title='Code: Portolio Project' href='https://github.com/ATB00ker/portfolio'>Portfolio</a>
-                                </div>
+                    <div class="item">
+                        <div class='expHolder'>
+                            <div class='row'><div class='expTitle col-11 col-11-sm'>C/C++</div></div>
+                            <div class='row'><p class='expBody col-11 col-11-sm'>I am comfortable & confident with using C/C++. I have done basic network management using C.</p></div>
+                            <div class='row'>
+                                <a class='col-11 col-11-sm expLink' title='Code: High School Final Project' href='https://github.com/ATB00ker/highSchoolProjectSample'>Bank Project</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class='row'>
-                    <div class='col-12 section-header'>EDUCATION</div>
-                </div>
-                <div id='eduContainer' class='row boxCentered'>
-                    <div class='boxCentered'>
-                        <div class='col-6 col-12-sm eduHolder'>
-                            <div class='eduTitle'><b>Ryan International, Noida</b></div>
-                            <div class='eduBody'>(2001-2016)<hr>I completed my 10+2 in 2016.<br><b>Stream:</b> PCM<br><b>Addtition Subjects:</b> English & Computer Science.</div>
-                        </div>
-                    </div>
-                    <div class='boxCentered'>
-                        <div class='col-6 co-12-sm eduHolder'>
-                            <div class='eduTitle'><b>Amity University, Noida</b></div>
-                            <div class='eduBody'>(2016-Present)<hr>Pursuing bachelors in Computer Science and engineering from Amity School of Engineering and Technology.</div>
-                        </div>
+            </div>
+            <div class='row'>
+                <div class='col-12 section-header'>EDUCATION</div>
+            </div>
+            <div id='eduContainer' class='row boxCentered'>
+                <div class='boxCentered'>
+                    <div class='col-6 col-12-sm eduHolder'>
+                        <div class='eduTitle'><b>Ryan International, Noida</b></div>
+                        <div class='eduBody'>(2001-2016)<hr>I completed my 10+2 in 2016.<br><b>Stream:</b> PCM<br><b>Addtition Subjects:</b> English & Computer Science.</div>
                     </div>
                 </div>
-            </section>
-        </main>
+                <div class='boxCentered'>
+                    <div class='col-6 co-12-sm eduHolder'>
+                        <div class='eduTitle'><b>Amity University, Noida</b></div>
+                        <div class='eduBody'>(2016-Present)<hr>Pursuing bachelors in Computer Science and engineering from Amity School of Engineering and Technology.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id='contactMe'>
+            <div class='social-links row text-center'>
+                <a href='https://github.com/atb00ker' target="_blank"><i class="fa fa-github"></i></a>
+                <a href='mailto:ajay39in@gmail.com' target="_blank"><i class="fa fa-envelope"></i></a>
+                <a href='https://web.telegram.org/#/im?p=@ATB00ker' target="_blank"><i class="fa fa-telegram"></i></a>
+                <a href='https://www.facebook.com/ajay39in' target="_blank"><i class="fa fa-facebook"></i></a>
+            </div>
+        </footer>
         <!-- ScrollReveal JavaScript -->
         <script async src="assets/js/scrollreveal.min.js"></script>
         <!-- JQuery JavaScript -->
         <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
         <!-- Owl Carousel JavaScript -->
         <script async src="assets/js/owl.carousel.min.js"></script>
+        <!-- Functionality JavaScript -->
+        <script async src="assets/js/main.js"></script>
     </body>
 </html>
