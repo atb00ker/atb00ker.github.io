@@ -47,6 +47,18 @@ $color-comfortable: rgba(2, 255, 0, 1);
 #projectsSectionSize {
     @extend #skillSectionSize;
 }
+.extraProjects {
+    font-family: "Saira",sans-serif;
+    padding: 6px;
+    width: 170px;
+    font-size: 1.4rem;
+    border: 2px solid #fed766;
+    color: #4b4b4b;
+    background-color: #ffe086;
+    @include border-radius(40px);
+    z-index: 2;
+    margin: 10px;
+}
 .projectBox {
     overflow: hidden;
     height: 300px;
@@ -194,9 +206,6 @@ $color-comfortable: rgba(2, 255, 0, 1);
     border: 1px solid #f2f2f2;
     margin: 0 30px 20px 0!important;
     @include border-shadow(0px, 0px, 8px, -2px, rgba(0,0,0,0.75));
-    // -webkit-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
-    // -moz-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
-    // box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
 }
 .eduTitle{
     font-size: 20px;

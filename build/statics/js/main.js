@@ -86,32 +86,9 @@ function toggleSkillSectionSize(elementWrapper, elementToResize, boxSize) {
     }
 }
 
-// <div class="item">
-//     <div class='expHolder'>
-//         <div class='row'><div class='expTitle col-11 col-11-sm'>Front-End Development</div></div>
-//         <div class='row'><p class='expBody col-11 col-11-sm'>I have worked on many front-end projects and i can comfortably work on <b> HTML, CSS, JavaScript, JQuery, KUTE.Js. </b></p></div>
-//         <div class='row'>
-//             <a class='col-5 col-5-sm expLink' title='Code: Exposure Project' href='https://github.com/ATB00ker/Exposure.github.io'>Exposure</a>
-//             <a class='col-5 col-5-sm expLink' title='Code: Portfolio' href='https://github.com/ATB00ker/portfolio'>Portfolio</a>
-//         </div>
+// <div class='row'>
+//     <div id='extraSkills'>
+//         <div class='extraProjects'> something </div>
+//         <div class='extraProjects'> something </div>
 //     </div>
-// </div>
-// <div class="item">
-//     <div class='expHolder'>
-//         <div class='row'><div class='expTitle col-11 col-11-sm'>Node.Js</div></div>
-//         <div class='row'><p class='expBody col-11 col-11-sm'>I have worked on worked on Node.Js with <b>Express Framework</b> using <b> Pug </b> as the view engine.</p></div>
-//         <div class='row'>
-//             <a class='col-11 col-11-sm expLink' title='Code: Website on Node.Js' href='https://github.com/ATB00ker/theAmityAndroidClub'>Android Club</a>
-//         </div>
-//     </div>
-// </div>
-// <div class="item">
-//     <div class='expHolder'>
-//         <div class='row'><div class='expTitle col-11 col-11-sm'>C/C++</div></div>
-//         <div class='row'><p class='expBody col-11 col-11-sm'>I am comfortable & confident with using C/C++. I have done basic network management using C.</p></div>
-//         <div class='row'>
-//             <a class='col-11 col-11-sm expLink' title='Code: High School Final Project' href='https://github.com/ATB00ker/highSchoolProjectSample'>Bank Project</a>
-//         </div>
-//     </div>
-// </div>
 // </div>
