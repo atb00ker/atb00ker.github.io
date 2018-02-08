@@ -4,22 +4,118 @@
 /* Variables */
 $section-header-font: 'Saira', sans-serif;
 $section-sub-header-font: 'Saira', sans-serif;
-
+$color-intermediate: rgba(255, 60, 0, 1);
+$color-learning:  rgba(0, 65, 255, 1);
+$color-comfortable: rgba(2, 255, 0, 1);
 /**************************
 * Information Section Styles
 ***************************/
-.section-header{
+.section-header {
     font-family: $section-header-font;
     overflow: hidden;
     margin-top: 8%!important;
     word-wrap: break-word;
     font-size: 70px;
+    margin-bottom: 0!important;
+    line-height: 1;
+}
+
+#skillSetSection {
+    height: 100%;
+}
+
+#skillSectionSize {
+    font-family: "Saira",sans-serif;
+    padding: 6px;
+    width: 170px;
+    position: absolute;
+    font-size: 1.4rem;
+    border: 2px solid #fed766;
+    color: #4b4b4b;
+    background-color: #ffe086;
+    @include border-radius(40px);
+    border-radius: 40px;
+    z-index: 2;
+    margin-bottom: 10px;
+    right: 0;left: 0;
+    margin: auto;
+}
+#projectsContainer {
+    height: 300px;
+    overflow: hidden;
+}
+#projectsSectionSize {
+    @extend #skillSectionSize;
+}
+.projectBox {
+    overflow: hidden;
+    height: 300px;
+    width: 250px;
+    position: absolute;
+    left: 0; right: 0;
+    margin: auto;
+}
+#projectBoxWrapper{
+    position: relative;
+    height: 300px;
+}
+.projectBoxImage {
+    height: 150px;
+    width: 250px;
+    @include border-radius(4%);
+    overflow: hidden;
+    background-image: url('../../assets/images/project-bg.webp');
+    position: relative;
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(to bottom right,#000,#000);
+        opacity: 0.8;
+    }
+}
+.projectBoxName {
+    text-decoration-line: none;
+    color: green;
+    position: absolute;
+    font-size: 30px;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    text-align: center;
+}
+.projectBoxDesc {
+    padding: 10px;
+    text-decoration-line: none;
+    color: green;
+    font-size: 20px;
+    position: relative;
+    color: black;
+}
+.projectBoxLongDesc {
+    color: #3d3d3d;
+}
+#skillSectionSize:focus { outline: none;}
+#skillSectionSize:hover {
+    color: #252a30;
+    background-color: #FED766;
+}
+
+#skillsContainer {
+    margin: 15px;
+    overflow: hidden;
+    height: 400px;
 }
 
 .skillsContainerBox {
     width: 100%;
-    height: 400px;
     overflow: auto;
+    text-align: center;
+    margin: 15px;
 }
 
 .sub-header-icon {
@@ -27,21 +123,33 @@ $section-sub-header-font: 'Saira', sans-serif;
     font-size: 70px;
     text-align: center;
 }
+
 .section-sub-header {
     font-family: $section-sub-header-font;
     overflow: hidden;
     word-wrap: break-word;
     font-size: 25px;
-    text-align: center;
+    margin: 0!important;
+    height: 79px;
 }
+
+.color-intermediate {
+    color: $color-intermediate;
+}
+
+.color-comfortable {
+    color: $color-comfortable;
+}
+
+.color-learning {
+    color: $color-learning;
+}
+
 .expHolder {
     border: 1px solid #f2f2f2;
     height: 220px;
     width: 320px;
     @include border-shadow(0px, 0px, 8px, -2px, rgba(0,0,0,0.75));
-    // -webkit-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
-    // -moz-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
-    // box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
 }
 .expTitle {
     height: 66px;
@@ -75,6 +183,9 @@ $section-sub-header-font: 'Saira', sans-serif;
     -webkit-box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
     -moz-box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
     background-color: #2bbbad;
+}
+#eduContainer {
+    margin: 10px;
 }
 .eduHolder {
     padding: 15px;
