@@ -1,17 +1,23 @@
 .footer-informations {
-    height: 300px;
+    font-size: 22px;
     margin: 0;
-    float: none;
-    width: 100%;
+    font-family: $section-header-font;
+    color: white;
+}
+.footer-link {
+    height: 30px;
+}
+footer a {
+    font-size: 19px;
+    margin-left: 10px;
+    color: white;
+}
+footer a:hover {
+    color: #322434!important;
 }
 #contactMe {
-    text-decoration: none;
-    font-size: 30px;
-    color: black;
     background: #3d3d3d;
 }
 .social-links {
     width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }

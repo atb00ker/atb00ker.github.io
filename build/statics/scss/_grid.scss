@@ -13,7 +13,6 @@
     #homeContainer{
         background-image: url("../../assets/images/bg-creator-1920.webp");
     }
-    .skillsContainerBox { height: 400px; }
 }
 @media all and (min-width:960px) and (max-width: 1079px) { /*Desktop Optimisation*/
     /**************************
@@ -29,7 +28,6 @@
     #homeContainer{
         background-image: url("../../assets/images/bg-creator-1080.webp");
     }
-    .skillsContainerBox { height: 400px; }
 
 }
 @media all and (min-width: 540px) and (max-width: 959px){ /*Tablet Optimisation*/
@@ -39,7 +37,6 @@
     .section-header{
         font-size: 55px;
     }
-    .skillsContainerBox { height: 400px; }
     /**************************
     * Home Section
     ***************************/
@@ -83,6 +80,4 @@
     #homeContainer{
         background-image: url("../../assets/images/bg-creator-1080.webp");
     }
-    #skillSetSection { height: 570px; }
-    .skillsContainerBox { margin: 0px; height: 400px; }
 }
