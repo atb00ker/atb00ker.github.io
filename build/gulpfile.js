@@ -2,7 +2,7 @@ var gulp = require('gulp'),
     makeCSS = require('gulp-sass'),
     minifyCSS = require('gulp-csso'),
     htmlmin = require('gulp-html-minifier'),
-    // minifyJS = require('gulp-js-minify'),
+    minifyjs = require('gulp-js-minify'),
     browserSync = require('browser-sync').create();
 
 /** Declaring all the paths **/
@@ -29,13 +29,6 @@ gulp.task('scss', function(){
     .pipe(gulp.dest(paths.styles.dest));
 });
 
-// gulp.task('minify-js', function(){
-//     return gulp.src(paths.scripts.src)
-//     .pipe(minifyJS())
-//     .pipe(gulp.dest(paths.scripts.dest));
-// });
-var minifyjs = require('gulp-js-minify');
-
 gulp.task('minify-js', function(){
   gulp.src('./statics/js/*.js')
     .pipe(minifyjs())
@@ -50,7 +43,7 @@ gulp.task('init-browser-sync', function() {
 
 gulp.task('minify-html', function() {
     return gulp.src(paths.html.src)
-    .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe(htmlmin({collapseWhitespace: true, removeComments: true}))
     .pipe(gulp.dest(paths.html.dest));
 });
 

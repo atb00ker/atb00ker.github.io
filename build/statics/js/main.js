@@ -1,7 +1,9 @@
 var html,
+    additionProjectsContainer = document.getElementById('additionProjectsContainer'),
+    projectsContainer = document.getElementById('projectsContainer'),
     skillsHtmlContainer = document.getElementById('skillsContainer'),
     introQuoteContainer = document.getElementById('introQuote'),
-    projectsContainer = document.getElementById('projectsContainer');
+    projectsSectionContainer = document.getElementById('projectsSectionContainer');
 document.body.scrollTop = document.documentElement.scrollTop = 0; // Scroll to Top of the page
 fetchData();
 function fetchData() {
@@ -18,9 +20,7 @@ function fetchData() {
             for (i=4;i<metaDataList.snapshotLength;i+=4)
                 htmlSkillBoxes(metaDataList.snapshotItem(i).nodeValue, metaDataList.snapshotItem(i+1).nodeValue, metaDataList.snapshotItem(i+2).nodeValue, metaDataList.snapshotItem(i+3).nodeValue);
             metaDataList = response.evaluate("//div[@id='sheets-viewport']/div[@id='64538848']//table[@class='waffle']/tbody/tr/td//text()",response,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null);
-            do {
-                random = Math.floor(Math.random() * metaDataList.snapshotLength);
-            } while(random < 3);
+            do { random = Math.floor(Math.random() * metaDataList.snapshotLength); } while(random < 3);
             if(random % 2 == 0)
                 htmlQuotes(metaDataList.snapshotItem(random).nodeValue, metaDataList.snapshotItem(random+1).nodeValue);
             else
@@ -29,7 +29,9 @@ function fetchData() {
             projectsContainer.innerHTML = '';
             for (i=5;i<metaDataList.snapshotLength;i+=5)
                 htmlProjectBoxes(metaDataList.snapshotItem(i).nodeValue, metaDataList.snapshotItem(i+1).nodeValue, metaDataList.snapshotItem(i+2).nodeValue, metaDataList.snapshotItem(i+3).nodeValue, metaDataList.snapshotItem(i+4).nodeValue);
-
+            metaDataList = response.evaluate("//div[@id='sheets-viewport']/div[@id='1427272975']//table[@class='waffle']/tbody/tr/td//text()",response,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null);
+            for (i=2;i<metaDataList.snapshotLength;i+=2)
+                additionProjects(metaDataList.snapshotItem(i).nodeValue, metaDataList.snapshotItem(i+1).nodeValue);
         }
     };
 }
@@ -74,6 +76,11 @@ function showSnacks() {
     setTimeout(function(){ snackbarContainer.className = snackbarContainer.className.replace("show", ""); }, 3000);
 }
 
+function additionProjects(title, link) {
+    html = "<a href='"+link+"'><div class='extraProjects'>"+title+"</div></a>";
+    additionProjectsContainer.innerHTML += html;
+}
+
 function toggleSkillSectionSize(elementWrapper, elementToResize, boxSize) {
     var sectionWrapper = document.getElementById(elementWrapper);
     var buttonToResize = document.getElementById(elementToResize);
@@ -85,10 +92,3 @@ function toggleSkillSectionSize(elementWrapper, elementToResize, boxSize) {
         buttonToResize.innerHTML = 'More';
     }
 }
-
-// <div class='row'>
-//     <div id='extraSkills'>
-//         <div class='extraProjects'> something </div>
-//         <div class='extraProjects'> something </div>
-//     </div>
-// </div>

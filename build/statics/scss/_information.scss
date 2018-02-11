@@ -40,24 +40,39 @@ $color-comfortable: rgba(2, 255, 0, 1);
     right: 0;left: 0;
     margin: auto;
 }
-#projectsContainer {
+#projectsSectionContainer {
     height: 300px;
     overflow: hidden;
 }
 #projectsSectionSize {
     @extend #skillSectionSize;
 }
+#additionProjectsContainer {
+    position: relative;
+    left: 0; right: 0;
+}
 .extraProjects {
+    position: relative;
     font-family: "Saira",sans-serif;
     padding: 6px;
-    width: 170px;
+    padding-left: 13px;
+    padding-right: 13px;
     font-size: 1.4rem;
-    border: 2px solid #fed766;
+    border: 2px solid #66fe70;
     color: #4b4b4b;
-    background-color: #ffe086;
+    background-color: #86ffb0;
     @include border-radius(40px);
+    border-radius: 40px;
     z-index: 2;
-    margin: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 4px;
+    text-align: center;
+    float: left;
+    overflow: visible;
+}
+.extraProjects:hover {
+    background-color: #86ff8e;
 }
 .projectBox {
     overflow: hidden;
