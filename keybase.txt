@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/atb00ker
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://atb00ker.github.io
+  * I am atb00ker (https://keybase.io/atb00ker) on keybase.
+  * I have a public key ASChbTpJqQ5Vhj_7HJ7WOVzyt5W1tD7zZ3F7Qt5GhTw1Mgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a16d3a49a90e55863ffb1c9ed6395cf2b795b5b43ef367717b42de46853c35320a",
+      "host": "keybase.io",
+      "kid": "0120a16d3a49a90e55863ffb1c9ed6395cf2b795b5b43ef367717b42de46853c35320a",
+      "uid": "81470ee993526fbc0dbbf825bf402519",
+      "username": "atb00ker"
+    },
+    "merkle_root": {
+      "ctime": 1518375204,
+      "hash": "6f3c805b1336a0a412f2c2cc794841e21d7f44cb27b3102a321e9c11a593a12d341bd66ccfb181634379d2ac82bcfa28a7b75a70504895dea5ae97fd815b86e4",
+      "hash_meta": "389f3fff32dc9c378a538ec29a7eea39a6e4b401c9a2e609d0d7bd2ef8c26b86",
+      "seqno": 2066686
+    },
+    "service": {
+      "hostname": "atb00ker.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.40"
+  },
+  "ctime": 1518375233,
+  "expire_in": 504576000,
+  "prev": "5f6245890aa2fb4af9591e9c888b461c5ed825513ac7057d8f7c705dc24cd57c",
+  "seqno": 16,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgoW06SakOVYY/+xye1jlc8reVtbQ+82dxe0LeRoU8NTIKp3BheWxvYWTFA0t7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYTE2ZDNhNDlhOTBlNTU4NjNmZmIxYzllZDYzOTVjZjJiNzk1YjViNDNlZjM2NzcxN2I0MmRlNDY4NTNjMzUzMjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYTE2ZDNhNDlhOTBlNTU4NjNmZmIxYzllZDYzOTVjZjJiNzk1YjViNDNlZjM2NzcxN2I0MmRlNDY4NTNjMzUzMjBhIiwidWlkIjoiODE0NzBlZTk5MzUyNmZiYzBkYmJmODI1YmY0MDI1MTkiLCJ1c2VybmFtZSI6ImF0YjAwa2VyIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTE4Mzc1MjA0LCJoYXNoIjoiNmYzYzgwNWIxMzM2YTBhNDEyZjJjMmNjNzk0ODQxZTIxZDdmNDRjYjI3YjMxMDJhMzIxZTljMTFhNTkzYTEyZDM0MWJkNjZjY2ZiMTgxNjM0Mzc5ZDJhYzgyYmNmYTI4YTdiNzVhNzA1MDQ4OTVkZWE1YWU5N2ZkODE1Yjg2ZTQiLCJoYXNoX21ldGEiOiIzODlmM2ZmZjMyZGM5YzM3OGE1MzhlYzI5YTdlZWEzOWE2ZTRiNDAxYzlhMmU2MDlkMGQ3YmQyZWY4YzI2Yjg2Iiwic2Vxbm8iOjIwNjY2ODZ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiYXRiMDBrZXIuZ2l0aHViLmlvIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuNDAifSwiY3RpbWUiOjE1MTgzNzUyMzMsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiNWY2MjQ1ODkwYWEyZmI0YWY5NTkxZTljODg4YjQ2MWM1ZWQ4MjU1MTNhYzcwNTdkOGY3YzcwNWRjMjRjZDU3YyIsInNlcW5vIjoxNiwidGFnIjoic2lnbmF0dXJlIn2jc2lnxECsmp4Nz1Z7ChWRbncX1dLBayOzlR0cEGYPKfTINEvUFWP69331j6aOZ6br1LCX6hflfhgaVlkM4mvH81TK9OkHqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgJQbzZJARaF1hFIG8MI406De6Ef6yLWQ4XPiyHXGN7K+jdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/atb00ker
+
+==================================================================
