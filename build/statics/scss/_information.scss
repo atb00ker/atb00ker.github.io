@@ -85,7 +85,7 @@ $color-comfortable: rgba(2, 255, 0, 1);
     width: 250px;
     @include border-radius(4%);
     overflow: hidden;
-    background-image: url('../../assets/images/project-bg.webp');
+    background-image: url('../../assets/images/project-bg.jpg');
     position: relative;
     &:before {
         content: '';
@@ -218,6 +218,7 @@ $color-comfortable: rgba(2, 255, 0, 1);
 .eduTitle{
     font-size: 20px;
     margin-bottom: 10px;
+    line-height: 20px;
 }
 .eduBody{
     text-align: left;

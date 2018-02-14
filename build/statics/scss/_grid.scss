@@ -3,7 +3,7 @@
     * Home Section
     ***************************/
     #homeContainer{
-        background-image: url("../../assets/images/bg-creator.webp");
+        background-image: url("../../assets/images/bg-creator.jpg");
     }
 }
 @media all and (min-width:1080px) and (max-width: 1919px) { /* Large Device Optimisation*/
@@ -11,7 +11,7 @@
     * Home Section
     ***************************/
     #homeContainer{
-        background-image: url("../../assets/images/bg-creator-1920.webp");
+        background-image: url("../../assets/images/bg-creator-1920.jpg");
     }
 }
 @media all and (min-width:960px) and (max-width: 1079px) { /*Desktop Optimisation*/
@@ -26,7 +26,7 @@
         height: 185px;
     }
     #homeContainer{
-        background-image: url("../../assets/images/bg-creator-1080.webp");
+        background-image: url("../../assets/images/bg-creator-1080.jpg");
     }
 
 }
@@ -50,7 +50,7 @@
         height: 160px;
     }
     #homeContainer{
-        background-image: url("../../assets/images/bg-creator-1080.webp");
+        background-image: url("../../assets/images/bg-creator-1080.jpg");
     }
 }
 @media all and (max-width: 539px) { /*Mobile Optimisation*/
@@ -78,6 +78,6 @@
         height: 120px;
     }
     #homeContainer{
-        background-image: url("../../assets/images/bg-creator-1080.webp");
+        background-image: url("../../assets/images/bg-creator-1080.jpg");
     }
 }
