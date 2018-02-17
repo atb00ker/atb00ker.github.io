@@ -59,6 +59,16 @@ body {
     -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
     animation: fadein 0.5s, fadeout 0.5s 2.5s;
 }
+#snackbar-easter-egg {
+    @extend #snackbar;
+}
+#snackbar-easter-egg.show {
+    @extend #snackbar.show;
+}
+
+.hidden {
+    display: none!important;
+}
 
 @-webkit-keyframes fadein {
     from {bottom: 0; opacity: 0;}
