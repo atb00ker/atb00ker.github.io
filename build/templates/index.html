@@ -2,150 +2,26 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
+    <meta name="theme-color" content="#5e8fca">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Search engine optimisating -->
-    <meta name="description" content="This website is a portfolio of atb00ker(Ajay Tripathi).">
-    <meta name="keywords" content="atb00ker, Ajay Tripathi">
+    <meta name="description" content="Ajay Tripathi (atb00ker): Software Developer. Stoic. Existentialist. Optimistically Nihilist. Snowdenist. Friendly. Confident. Perfectionist. Creative. Playful. Programmer. Philosopher.">
+    <meta name="keywords" content="atb00ker, Ajay Tripathi, portfolio, Software Developer, Developer, Engineer, India, Noida, Amity, Ryan">
     <meta name="author" content="atb00ker">
-    <base target="_blank">
-    <!-- Browser tab theme color for Chrome on Android -->
-    <meta name="theme-color" content="#5e8fca">
     <title>atb00ker</title>
-    <!--Including ShivJS & PolyFill for Internet Explorer-->
+    <base target="_blank">
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
     <![endif]-->
-    <!-- Site favicon -->
-    <link href="./assets/images/64.png" rel="shortcut icon">
-    <link href="./assets/images/64.png" rel="apple-touch-icon">
-    <!-- Simple-Grid Cascading Style Sheets -->
-    <link href="assets/css/simple-grid.min.css" rel="stylesheet" media="all" />
-    <!-- Custom Cascading Style Sheets -->
-    <link href="assets/css/main.css" rel="stylesheet" media="all" />
-    <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins|Saira" rel="stylesheet">
-    <!-- Font Awesome Script  -->
-    <!-- <script async src="https://use.fontawesome.com/1bad04d961.js"></script> -->
-    <script async src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js"></script>
-    <script async src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js"></script>
-    <script async src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js"></script>
-
-
+    {% include "section/_style.jinja" %}
 </head>
 
 <body>
-    <section id='homeContainer'>
-        <a target='_self' href='#contactMe'>
-            <div id='introBox'>
-                <img class='row' id="creator-image" alt='Ajay Tripathi' src="./assets/images/creator-image.jpg" />
-                <div id='introText'>
-                    <b>atb00ker</b>, <i>developer</i>
-                    <span style="text-align: center; width: 50%;">
-                        <hr></span>
-                </div>
-                <div onmouseover="showSnacks()" id='introQuote'>
-                    <div style="font-family: none;">Rolling the dice...</div>
-                </div>
-            </div>
-        </a>
-        <div id="snackbar">Refresh for more wisdom</div>
-    </section>
-    <section class='container'>
-        <div class='scrollreveal-down'>
-            <div id='skillSetSection' class='row'>
-                <div class='scrollreveal-left row'>
-                    <div class='col-12 section-header'>SKILLS</div>
-                    <div class='col-12 section-sub-header'>I've got chops in many in development</div>
-                </div>
-                <div id='skillsContainer' class='col-12'>Loading...</div>
-            </div>
-            <div style='height:50px' class='row'>
-                <button id='skillSectionSize' onclick='toggleSkillSectionSize("skillsContainer","skillSectionSize","400px")'>More</button>
-            </div>
-        </div>
-        <div id='projectSection' class='row'>
-            <div class='row'>
-                <div class='col-12 section-header'>PROJECTS</div>
-                <div class='col-12 section-sub-header'>Here, I proudly present my projects</div>
-            </div>
-            <div id='projectsSectionContainer'>
-                <div class='row' id='projectsContainer'>Loading...</div>
-                <div class='row' id='additionProjectsContainer'></div>
-            </div>
-            <div style='height:50px' class='row'>
-                <button id='projectsSectionSize' onclick='toggleSkillSectionSize("projectsSectionContainer","projectsSectionSize","300px")'>More</button>
-            </div>
-        </div>
-        <div id='eduSection' class='row'>
-            <div class='scrollreveal-left row'>
-                <div class='col-12 section-header'>EDUCATION</div>
-                <div class='col-12 section-sub-header'>My formal education information</div>
-            </div>
-            <div id='eduContainer' class='row boxCentered'>
-                <div class='boxCentered'>
-                    <div class='col-6 col-12-sm eduHolder'>
-                        <div class='eduTitle'><b>Ryan International, Noida</b></div>
-                        <div class='eduBody'>(2001-2016)
-                            <hr>I completed my 10+2 in 2016.<br><b>Stream:</b> PCM<br><b>Addtition Subjects:</b>
-                            English & Computer Science.</div>
-                    </div>
-                </div>
-                <div class='boxCentered'>
-                    <div class='col-6 co-12-sm eduHolder'>
-                        <div class='eduTitle'><b>Amity University, Noida</b></div>
-                        <div class='eduBody'>(2016-Present)
-                            <hr>Pursuing bachelors in Computer Science and engineering from Amity School of Engineering
-                            and Technology.</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer id='contactMe'>
-        <div class='row'>
-            <div class='col-4'>
-                <div class='footer-informations'>
-                    Site-Map
-                    <div class='footer-link'><a href='#skillSetSection' target="_self">Skills</a></div>
-                    <div class='footer-link'><a href='#projectSection' target="_self">Projects</a></div>
-                    <div class='footer-link'><a href='#eduSection' target="_self">Education</a></div>
-                    <div class='footer-link'><a href='./keybase.txt' target="_self">Keybase Verification</a></div>
-                </div>
-            </div>
-            <div class='col-4'>
-                <div class='footer-informations'>
-                    Information
-                    <div class='footer-link'><a href='./assets/files/Ajay-Tripathi-Resume.pdf' target="_self">Resume</a></div>
-                    <div class='footer-link'><a href='assets/files/CV-Europass-Ajay-Tripathi-EN.pdf' target="_self">Curriculum
-                            Vitae</a></div>
-                </div>
-            </div>
-            <div class='col-4'>
-                <div class='footer-informations'>
-                </div>
-            </div>
-        </div>
-        <div class='row'>
-            <div class='col-12'>
-                <div id='connect-with-me' class='social-links row text-center'>
-                    <a title="LinkedIn" href='https://www.linkedin.com/in/atb00ker/' target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a title="Keybase" href='https://keybase.io/atb00ker' target="_blank"><i class="fas fa-user-secret"></i></a>
-                    <a title="Github" href='https://github.com/atb00ker' target="_blank"><i class="fab fa-github"></i></a>
-                    <a title="Mail" href='mailto:ajay39in@gmail.com' target="_blank"><i class="fas fa-envelope"></i></a>
-                    <a id='specialContactBtn' class='hidden' title="More" onclick="callMoreContactInfo('salt')" target="_blank"><i
-                            class="fas fa-smile"></i></a>
-                </div>
-            </div>
-            <div id="snackbar-easter-egg">I see you found an Easter Egg</div>
-        </div>
-    </footer>
-    <!-- ScrollReveal JavaScript -->
-    <script async src="assets/js/scrollreveal.min.js"></script>
-    <!-- Functionality JavaScript -->
-    <script async src="assets/js/main.js"></script>
+    {% include "section/_home.jinja" %}
+    {% include "section/_footer.jinja" %}
+    {% include "section/_script.jinja" %}
 </body>
 
 </html>

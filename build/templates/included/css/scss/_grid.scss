@@ -1,20 +1,38 @@
 @media all and (min-width: 1920px) { /* Very Large Device Optimisation*/
     /**************************
-    * Home Section
+    * General Helpers
     ***************************/
-    #homeContainer{
-        background-image: url("../../assets/images/bg-creator.jpg");
+    .section-header{
+        line-height: 1;
     }
-}
-@media all and (min-width:1080px) and (max-width: 1919px) { /* Large Device Optimisation*/
     /**************************
     * Home Section
     ***************************/
     #homeContainer{
-        background-image: url("../../assets/images/bg-creator-1920.jpg");
+        background-image: url("assets/images/bg-creator.jpg");
+    }
+}
+@media all and (min-width:1080px) and (max-width: 1919px) { /* Large Device Optimisation*/
+    /**************************
+    * General Helpers
+    ***************************/
+    .section-header{
+        line-height: 1;
+    }
+    /**************************
+    * Home Section
+    ***************************/
+    #homeContainer{
+        background-image: url("assets/images/bg-creator-1920.jpg");
     }
 }
 @media all and (min-width:960px) and (max-width: 1079px) { /*Desktop Optimisation*/
+    /**************************
+    * General Helpers
+    ***************************/
+    .section-header{
+        line-height: 1;
+    }
     /**************************
     * Home Section
     ***************************/
@@ -26,9 +44,9 @@
         height: 185px;
     }
     #homeContainer{
-        background-image: url("../../assets/images/bg-creator-1080.jpg");
+        background-image: url("assets/images/bg-creator-1080.jpg");
     }
-
+    
 }
 @media all and (min-width: 540px) and (max-width: 959px){ /*Tablet Optimisation*/
     /**************************
@@ -50,7 +68,7 @@
         height: 160px;
     }
     #homeContainer{
-        background-image: url("../../assets/images/bg-creator-1080.jpg");
+        background-image: url("assets/images/bg-creator-1080.jpg");
     }
 }
 @media all and (max-width: 539px) { /*Mobile Optimisation*/
@@ -78,6 +96,6 @@
         height: 120px;
     }
     #homeContainer{
-        background-image: url("../../assets/images/bg-creator-1080.jpg");
+        background-image: url("assets/images/bg-creator-1080.jpg");
     }
 }
