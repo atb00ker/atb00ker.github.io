@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include "partials/_head.jinja" %}
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Timmana|Staatliches|Acme|Lato:400,300,300italic,400italic,700,700italic" rel="stylesheet">
+    <!-- Custom Styles -->
+    <style type="text/css">
+        {% include "included/css/index.css" %}
+    </style>
+</head>
+
+<body>
+    {% include "partials/_home.jinja" %}
+    {% include "partials/_about.jinja" %}
+    {% include "partials/_experience.jinja" %}
+    {% include "partials/_footer.jinja" %}
+
+    <!-- Font Awesome SVGs -->
+    <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1"
+        crossorigin="anonymous"></script>
+    <!-- JavaScript -->
+    <script type="text/javascript">
+        {% include "included/js/minified/main.min.js" %}
+        {% include "included/js/minified/index.min.js" %}
+    </script>
+</body>
+
+</html>

@@ -1,8 +1,8 @@
 .footer-informations {
     font-size: 22px;
     margin: 0;
-    font-family: $section-header-font;
-    color: white;
+    font-family: 'Timmana', sans-serif;
+    color: black;
 }
 .footer-link {
     height: 30px;
@@ -10,28 +10,33 @@
 footer a {
     font-size: 19px;
     margin-left: 10px;
-    color: white;
+    color: grey;
+    font-family: 'Timmana', sans-serif;
 }
 footer a:hover {
     color: #322434!important;
 }
 #contactMe {
-    background: #3d3d3d;
+    background: whitesmoke;
+    padding-top: 5%;
 }
 .social-links {
+    padding: 20px 0;
     width: 100%;
 }
 .social-links a {
     display: inline-block;
-    color: rgba(255,255,255,1);
+    color: #2e3449;
     text-decoration: none;
-    margin: 4px;
-    height: 43px;
-    width: 43px;
-    font-size: 1.6rem;
-    line-height: 1.7;
-    background-color: rgba(0,0,0,0.2);
-    border-radius: 50px;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    margin: 5px;
+    height: 45px;
+    width: 45px;
+    font-size: 30px;
+    line-height: 2;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+    
+}
+.social-links a:hover {
+    color: #fff!important;
 }

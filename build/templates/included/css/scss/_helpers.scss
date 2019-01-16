@@ -13,12 +13,46 @@
     -moz-box-shadow: $horizontal-length $vertical-length $blur-radius $spread-radius $color-rgba;
     box-shadow: $horizontal-length $vertical-length $blur-radius $spread-radius $color-rgba;
 }
+
+/**************************
+* Common Styles
+***************************/
+.sectionHeader {
+    font-family: 'Timmana', sans-serif;
+    font-size: 90px;
+    line-height: 1;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 /**************************
 * General Style Helpers
 ***************************/
 body {
     margin: 0;
     padding: 0;
+}
+
+a {
+    text-decoration: none;
 }
 
 .parent-center{
@@ -29,15 +63,18 @@ body {
 	width:500px;
 	height:500px;
 }
+
 .text-center{
     float: none;
     text-align: center;
 }
+
 .boxCentered {
     display: inline-block;
     float: none;
     text-align: center;
 }
+
 #snackbar {
     visibility: hidden;
     min-width: 250px;
@@ -50,6 +87,7 @@ body {
     position: fixed;
     z-index: 3;
     left: 50%;
+    transform: translateX(-5%);
     bottom: 30px;
     font-size: 17px;
 }
@@ -59,9 +97,11 @@ body {
     -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
     animation: fadein 0.5s, fadeout 0.5s 2.5s;
 }
+
 #snackbar-easter-egg {
     @extend #snackbar;
 }
+
 #snackbar-easter-egg.show {
     @extend #snackbar.show;
 }

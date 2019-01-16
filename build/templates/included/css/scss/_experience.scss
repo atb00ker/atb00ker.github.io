@@ -1,0 +1,63 @@
+#expContainer {
+    height: 100%;
+    background-color: #2e3449;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+#expHeader {
+    font-family: 'Staatliches', cursive;
+    color: white;
+    float: right;
+    font-style: italic;
+    font-size: 80px;
+}
+/**************************
+* Experience Box Styles
+***************************/
+.expBox {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.15), 0 8px 16px -8px rgba(0, 0, 0, 0.3);
+    height: 230px;
+}
+.expBoxImageContainer {
+    margin: 0!important;
+    max-height: 230px;
+}
+.expBoxImage {
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+}
+.expBoxText {
+    color: #1c1c1c;
+    overflow: auto;
+    margin-right: 0!important;
+    margin-top: 0!important;
+    height: 225px;
+}
+.expBoxTitleSection {
+    font-size: 30px;
+    border-bottom: 1px solid #acacacde;
+    font-family: 'Acme', sans-serif;
+}
+.expBoxIcon {
+    float: right;
+    margin: 5px;
+    transform: translateY(15%);
+}
+/**************************
+* Skills Section
+***************************/
+#skillsContainer {
+    color: white;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+.skillIcon{
+    height: 50px;
+    margin: 5px;
+}
