@@ -1,0 +1,116 @@
+[
+    {
+        "icon": "fab fa-telegram-plane",
+        "name": "Telegram",
+        "link": "https://web.telegram.org/#/im?p=@atb00ker",
+        "salt": false
+    },
+    {
+        "icon": "fab fa-twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/atb00ker",
+        "salt": false
+    },
+    {
+        "icon": "fab fa-hackerrank",
+        "name": "Hackerrank",
+        "link": "https://www.hackerrank.com/atb00ker",
+        "salt": false
+    },
+    {
+        "icon": "fab fa-goodreads",
+        "name": "Goodreads",
+        "link": "http://goodreads.com/atb00ker",
+        "salt": false
+    },
+    {
+        "icon": "fab fa-imdb",
+        "name": "IMDb",
+        "link": "https://www.imdb.com/user/ur93919158",
+        "salt": false
+    },
+    {
+        "icon": "fab fa-docker",
+        "name": "Docker",
+        "link": "https://hub.docker.com/u/atb00ker",
+        "salt": false
+    },
+    {
+        "icon": "fab fa-autoprefixer",
+        "name": "Ansible",
+        "link": "https://galaxy.ansible.com/atb00ker",
+        "salt": false
+    },
+    {
+        "icon": "fas fa-gamepad",
+        "name": "Games",
+        "link": "https://www.imdb.com/list/ls040681898/",
+        "salt": false
+    },
+    {
+        "icon": "fas fa-tv",
+        "name": "Television",
+        "link": "https://www.imdb.com/list/ls040681683/",
+        "salt": false
+    },
+    {
+        "icon": "fas fa-film",
+        "name": "Movies",
+        "link": "https://www.imdb.com/list/ls040681048/",
+        "salt": false
+    },
+    {
+        "icon": "fab fa-meetup",
+        "name": "Meetup",
+        "link": "https://www.meetup.com/members/163049492/",
+        "salt": true
+    },
+    {
+        "icon": "fab fa-google-plus",
+        "name": "Google Plus",
+        "link": "https: //plus.google.com/114619296012496857092",
+        "salt": true
+    },
+    {
+        "icon": "fa fa-globe",
+        "name": "Hacker Earth",
+        "link": "http://www.hackerearth.com/@atb00ker",
+        "salt": true
+    },
+    {
+        "icon": "fas fa-fire",
+        "name": "Tinder",
+        "link": "http: //gotinder.com/@atb00ker",
+        "salt": true
+    },
+    {
+        "icon": "fab fa-instagram",
+        "name": "Instagram",
+        "link": "https: //www.instagram.com/atb00ker",
+        "salt": true
+    },
+    {
+        "icon": "fab fa-facebook-square",
+        "name": "Facebook",
+        "link": "https: //www.facebook.com/atb00ker",
+        "salt": true
+    },
+    {
+        "icon": "fab fa-slideshare",
+        "name": "Slides",
+        "link": "https: //slides.com/atb00ker",
+        "salt": true
+    },
+    {
+        "icon": "fas fa-dice-d20",
+        "name": "Ubisoft",
+        "link": "https: //club.ubisoft.com/en-GB/profile/atb00ker",
+        "salt": true
+    },
+    {
+        "icon": "fas fa-trophy",
+        "name": "Origin",
+        "link": "https: //www.origin.com/ind/en-us/profile/user/BobyAWXzmLlf6NasXubNEw--/achievements",
+        "salt": true
+    }
+]

@@ -1,11 +1,13 @@
 <meta charset="utf-8" />
-<meta name="theme-color" content="#5e8fca">
+<meta name="theme-color" content="#26353c" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://use.fontawesome.com">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Ajay Tripathi (atb00ker): Software Developer. Stoic. Existentialist. Optimistically Nihilist. Snowdenist. Friendly. Confident. Perfectionist. Creative. Playful. Programmer. Philosopher.">
-<meta name="keywords" content="Hello, I am Ajay Tripathi. I am 21 years old, born and raised in India. I am currently working to complete my bachelors in Computer Science. I love engineering my way out of problems. I have the love of thinking and often find myself flirting with branches of philosophy like existentialism & stoicism. I believe the world to be a positive sum game and hence promote and proudly contribute to the open-source culture.">
-<meta name="author" content="atb00ker">
-<title>atb00ker</title>
+<meta name="description" content="{{ meta.description }}">
+<meta name="keywords" content="{{ meta.keywords }}">
+<meta name="author" content="{{ meta.username }}">
+<title>{{ meta.name }}</title>
 <base target="_blank">
 <link href="./assets/images/64.png" rel="shortcut icon">
 <link href="./assets/images/64.png" rel="apple-touch-icon">
@@ -13,5 +15,6 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
 <![endif]-->
-<!-- Simple Grid -->
-<link href="assets/css/simple-grid.min.css" rel="stylesheet">
+<style type="text/css">
+    {% include "included/css/simple-grid.min.css" %}
+</style>

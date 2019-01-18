@@ -8,9 +8,45 @@
             </div>
         </div>
         <div class='row'>
-            <div id='expBoxesContainer'></div>
-            <div class='col-4' id='skillsContainer'>
+                <div class='col-4' id='skillsContainer'></div>
+            <div class='col-8 col-12-sm' id='expBoxesContainer'>
+                {% for experience in experiences %}
+                    <div class="timeline-item" date-is="{{ experience.duration }}">
+                        <h1 class='timeline-heading'>{{ experience.title }}</h1>
+                        <p class='timeline-para'>
+                            {% if experience.github %}
+                                <a class="expIcon" href='{{ experience.github }}'>
+                                    <i class="fab fa-github" title='Github'></i>
+                                </a>
+                            {% endif %}
+                            {% if experience.link %}
+                                <a class="expIcon" href='{{ experience.link }}'>
+                                    <i class="fas fa-link" title='Link'></i>
+                                </a>
+                            {% endif %}
+                            {% if experience.certificate %}
+                                <a class="expIcon" href='{{ experience.certificate }}'>
+                                    <i class="fas fa-medal" title='Certificate'></i>
+                                </a>
+                            {% endif %}
+                        {{ experience.content }}
+                        </p>
+                    </div>
+                {% endfor %}
             </div>
         </div>
     </div>
 </section>
+{# Load skills only in large screens #}
+<template id="skillsTemplate">
+        {% for skill in skills %}
+            {% if skill.special %}
+                <br><br><br>
+            {% endif %}
+            {% if skill.white %}
+                <img class='skillIconWhite' src='{{ skill.image }}' title='{{ skill.title }}'>
+            {% else %}
+                <img class='skillIcon' src='{{ skill.image }}' title='{{ skill.title }}'>
+            {% endif %}
+        {% endfor %}
+</template>

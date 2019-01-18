@@ -1,0 +1,224 @@
+[
+    {
+        "image": "assets/images/skills/front-end.svg",
+        "title": "Front End",
+        "special": true,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/html.svg",
+        "title": "HTML",
+        "special": false,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/css.svg",
+        "title": "Cascading Style Sheets",
+        "special": false,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/sass.svg",
+        "title": "SASS",
+        "special": false,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/javascript.svg",
+        "title": "Javascript",
+        "special": false,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/jquery.png",
+        "title": "JQuery",
+        "special": false,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/gulp.svg",
+        "title": "Gulp",
+        "special": false,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/kutejs.webp",
+        "title": "KuteJs",
+        "special": false,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/jinja.png",
+        "title": "Jinja2",
+        "special": false,
+        "white": true
+    },
+    {
+        "image": "assets/images/skills/pwa.png",
+        "title": "Progressive Web Application",
+        "special": false,
+        "white": true
+    },
+    {
+        "image": "assets/images/skills/dev-ops.svg",
+        "title": "DevOps",
+        "special": true,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/ansible.svg",
+        "title": "Ansible",
+        "special": false,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/vagrant.png",
+        "title": "Vagrant",
+        "special": false,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/docker.svg",
+        "title": "Docker",
+        "special": false,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/back-end.svg",
+        "title": "Backend Development",
+        "special": true,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/django.png",
+        "title": "Django",
+        "special": false,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/flask.svg",
+        "title": "Flask",
+        "special": false,
+        "white": true
+    },
+    {
+        "image": "assets/images/skills/nodejs.webp",
+        "title": "NodeJs",
+        "special": false,
+        "white": true
+    },
+    {
+        "image": "assets/images/skills/languages.svg",
+        "title": "Languages",
+        "special": true,
+        "white": true
+    },
+    {
+        "image": "assets/images/skills/c.svg",
+        "title": "C",
+        "special": false,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/cpp.svg",
+        "title": "C++",
+        "special": false,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/python.svg",
+        "title": "Python",
+        "special": false,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/shell.svg",
+        "title": "Shell Scripting",
+        "special": false,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/java.svg",
+        "title": "Java",
+        "special": false,
+        "white": true
+    },
+    {
+        "image": "assets/images/skills/kotlin.svg",
+        "title": "Kotlin",
+        "special": false,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/db.svg",
+        "title": "Database",
+        "special": true,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/mysql.svg",
+        "title": "Mysql",
+        "special": false,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/postgresql.svg",
+        "title": "PostgreSQL",
+        "special": false,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/tools.svg",
+        "title": "Tools",
+        "special": true,
+        "white": true
+    },
+    {
+        "image": "assets/images/skills/git.png",
+        "title": "Git",
+        "special": false,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/linux.svg",
+        "title": "Linux",
+        "special": false,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/openwisp.png",
+        "title": "OpenWISP",
+        "special": false,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/scikitlearn.svg",
+        "title": "Sciket Learn",
+        "special": false,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/scrapy.png",
+        "title": "Scrapy",
+        "special": false,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/telegram-bots.png",
+        "title": "Python-telegram-bots",
+        "special": false,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/test-automation.svg",
+        "title": "Automated Testing",
+        "special": true,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/travis-ci.png",
+        "title": "Travis CI",
+        "special": false,
+        "white": false
+    }
+]
