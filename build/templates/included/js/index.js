@@ -3,8 +3,6 @@ site.home = (function () {
         skillsContainer = document.getElementById('skillsContainer'),
         expBoxContainer = document.getElementById('expBoxesContainer');
     initQuotes();
-    initExperience();
-    initSkills();
     function showSnacks() {
         var snackbarContainer = document.getElementById("snackbar");
         snackbarContainer.className = "show";

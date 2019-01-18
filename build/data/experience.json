@@ -1,0 +1,20 @@
+[
+    {
+        "title": "FOSSEE Fellowship, IIT Bombay",
+        "duration": "May 2018 – July 2018",
+        "content": "Site optimization: About 60% less data requirement for users during download. <br> Web Development: Using Django, added the features to edit / show user testimonials on the main site of spoken-tutorial.org",
+        "image": "assets/images/experience/FOSSEE.jpg",
+        "github": "NULL",
+        "certificate": "assets/files/FOSSEEcertificate.pdf",
+        "link": "NULL"
+    },
+    {
+        "title": "FOSSEE Fellowship, IIT Bombay",
+        "duration": "May 2018 – July 2018",
+        "content": "Site optimization: About 60% less data requirement for users during download. <br> Web Development: Using Django, added the features to edit / show user testimonials on the main site of spoken-tutorial.org",
+        "image": "assets/images/experience/FOSSEE.jpg",
+        "github": "NULL",
+        "certificate": "assets/files/FOSSEEcertificate.pdf",
+        "link": "NULL"
+    }
+]

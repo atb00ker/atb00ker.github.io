@@ -1,0 +1,12 @@
+[
+    {
+        "image": "https://codetrace.com/static/images/badges/front-end.svg",
+        "title": "Front End",
+        "special": true
+    },
+    {
+        "image": "https://codetrace.com/static/images/languages/css.svg",
+        "title": "Cascading Style Sheets",
+        "special": false
+    }
+]

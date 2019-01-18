@@ -7,40 +7,40 @@
                     Site
                     <div class='footer-link'><a href='index.html#aboutContainer' target="_self">About</a></div>
                     <div class='footer-link'><a href='index.html#expContainer' target="_self">Experience</a></div>
-                    <div class='footer-link'><a href='timeline.html' target="_self">TODO: Timeline</a></div>
+                    {# TODO: <div class='footer-link'><a href='timeline.html' target="_self">Timeline</a></div> #}
                 </div>
             </div>
             <div class='col-4'>
                 <div class='footer-informations'>
                     Information
-                    <div class='footer-link'><a href='./assets/files/Ajay-Tripathi-Resume.pdf' target="_self">Resume</a></div>
-                    <div class='footer-link'><a href='assets/files/CV-Europass-Ajay-Tripathi-EN.pdf' target="_self">Curriculum Vitae</a></div>
+                    <div class='footer-link'><a href='{{ meta.resume }}' target="_self">Resume</a></div>
+                    <div class='footer-link'><a href='{{ meta.curriculumVitae }}' target="_self">Curriculum Vitae</a></div>
                 </div>
             </div>
             <div class='col-4'>
                 <div class='footer-informations'>
                     Links
-                    <div class='footer-link'><a href='./keybase.txt' target="_self">TODO: Site Map</a></div>
-                    <div class='footer-link'><a href='./keybase.txt' target="_self">Keybase Verification</a></div>
+                    <div class='footer-link'><a href='keybase.txt' target="_self">TODO: Site Map</a></div>
+                    <div class='footer-link'><a href='keybase.txt' target="_self">Keybase Verification</a></div>
                 </div>
             </div>
         </div>
         <div class='row'>
             <div class='col-12'>
                 <div id='connect-with-me' class='social-links row text-center'>
-                    <a title="Twitter" href='https://twitter.com/atb00ker' target='_blank'>
+                    <a title="Twitter" href='{{ meta.twitter }}' target='_blank'>
                         <i class="fab fa-twitter"></i>
                     </a>
-                    <a title="LinkedIn" href='https://www.linkedin.com/in/atb00ker/' target='_blank'>
+                    <a title="LinkedIn" href='{{ meta.linkedin }}' target='_blank'>
                         <i class="fab fa-linkedin"></i>
                     </a>
-                    <a title="Mail" href='mailto:ajay39in@gmail.com' target='_blank'>
+                    <a title="Mail" href='mailto:{{ meta.mail }}' target='_blank'>
                         <i class="fas fa-envelope"></i>
                     </a>
-                    <a title="Github" href='https://github.com/atb00ker' target='_blank'>
+                    <a title="Github" href='{{ meta.github }}' target='_blank'>
                         <i class="fab fa-github"></i>
                     </a>
-                    <a title="Keybase" href='https://keybase.io/atb00ker' target='_blank'>
+                    <a title="Keybase" href='{{ meta.keybase }}' target='_blank'>
                         <i class="fas fa-user-secret"></i>
                     </a>
                     <a id='specialContactBtn' class='hidden' title='More' onclick="site.main.callMoreContactInfo('salt')" target='_blank'>

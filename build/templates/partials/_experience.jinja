@@ -8,8 +8,23 @@
             </div>
         </div>
         <div class='row'>
-            <div id='expBoxesContainer'></div>
             <div class='col-4' id='skillsContainer'>
+                {% for skill in skills %}
+                    {% if skill.special %}
+                        <br>
+                    {% endif %}
+                <img class='skillIcon' src='{{ skill.image }}' title='{{ skill.title }}'>
+                {% endfor %}
+            </div>
+            <div class='col-8 col-12-sm' id='expBoxesContainer'>
+                {% for experience in experiences %}
+                    <div class="timeline-item" date-is="{{ experience.duration }}">
+                        <h1 class='timeline-heading'>{{ experience.title }}</h1>
+                        <p class='timeline-para'>
+                        {{ experience.content }}
+                        </p>
+                    </div>
+                {% endfor %}
             </div>
         </div>
     </div>

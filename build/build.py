@@ -7,6 +7,7 @@ from rjsmin import jsmin
 import htmlmin
 import sass
 import time
+import json
 
 
 class WatchAction(Reloader):
@@ -112,7 +113,19 @@ class RenderJinja(Site):
 
 
 if __name__ == "__main__":
-    outpath = os.path.join(os.path.dirname(
-        os.path.abspath(__file__)), os.pardir)
-    site = RenderJinja.make_site(outpath=outpath)
+    build_dir = os.path.dirname(os.path.abspath(__file__))
+    outpath = os.path.join(build_dir, os.pardir)
+    data_dir = os.path.join(build_dir, "data")
+    with open(os.path.join(data_dir, "experience.json"), 'r') as file:
+        experiences = json.load(file)
+    with open(os.path.join(data_dir, "meta.json"), 'r') as file:
+        meta = json.load(file)
+    with open(os.path.join(data_dir, "skills.json"), 'r') as file:
+        skills = json.load(file)
+    site = RenderJinja.make_site(outpath=outpath,
+                                 env_globals={
+                                     'experiences': experiences,
+                                     'meta': meta,
+                                     'skills': skills,
+                                 })
     site.render(use_reloader=True)

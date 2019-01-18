@@ -6,19 +6,6 @@ site.common = (function () {
         setTimeout(function () { snackbarContainer.className = snackbarContainer.className.replace("show", ""); }, 3000);
         getContactInfo(salt);
     }
-    function fetchJSON(callback, file) {
-        // Function to take in a URL make a get response to it and 
-        // callback response.
-        http = new XMLHttpRequest();
-        http.onreadystatechange = function () {
-            if (http.readyState == 4 && http.status == 200) {
-                callback(http.responseText);
-            }
-        }
-        url = "https://gist.githubusercontent.com/atb00ker/c22b672e9aa845e4b433827dbb8ceb8f/raw/" + file;
-        http.open("GET", url, true);
-        http.send();
-    }
     function getContactInfo(salt) {
         var metaDataList = [],
             secret_html,
@@ -52,9 +39,6 @@ site.common = (function () {
         },
         getContactInfo: function (salt) {
             getContactInfo(salt);
-        },
-        fetchJSON: function (callback, file) {
-            fetchJSON(callback, file);
         }
     };
 })();
