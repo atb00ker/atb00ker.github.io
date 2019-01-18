@@ -13,6 +13,12 @@
     font-style: italic;
     font-size: 80px;
 }
+.expIcon {
+    color: white;
+    font-size: 25px;
+    padding: 0 10px;
+    float: right;
+}
 /**************************
 * Skills Section
 ***************************/
@@ -23,6 +29,12 @@
 .skillIcon{
     height: 50px;
     margin: 5px;
+}
+.skillIconWhite{
+    height: 50px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 5px;
 }
 /**************************
 * Timeline
@@ -40,7 +52,7 @@
 $border-color: white;
 
 .timeline-item {
-    padding: 2em 1em 1em;
+    padding: 1em;
 	position: relative;
 	    color: rgb(255, 255, 255);
 	border-left: 2px solid $border-color;

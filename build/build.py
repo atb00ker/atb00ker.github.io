@@ -122,10 +122,16 @@ if __name__ == "__main__":
         meta = json.load(file)
     with open(os.path.join(data_dir, "skills.json"), 'r') as file:
         skills = json.load(file)
+    with open(os.path.join(data_dir, "quotes.json"), 'r') as file:
+        quotes = json.load(file)
+    with open(os.path.join(data_dir, "contacts.json"), 'r') as file:
+        contacts = json.load(file)
     site = RenderJinja.make_site(outpath=outpath,
                                  env_globals={
                                      'experiences': experiences,
                                      'meta': meta,
                                      'skills': skills,
+                                     'quotes': quotes,
+                                     'contacts': contacts,
                                  })
     site.render(use_reloader=True)

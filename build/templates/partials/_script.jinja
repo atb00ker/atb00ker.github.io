@@ -4,4 +4,8 @@
 <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/fontawesome.js" integrity="sha384-treYPdjUrP4rW5q82SnECO7TPVAz4bpas16yuE9F5o7CeBn2YYw1yr5oC8s8Mf8t" crossorigin="anonymous"></script>
 <script type=text/javascript>
 var site = {};
+quoteCollection = [];
+contactCollection = [];
+{% for quote in quotes %}quoteCollection[{{ loop.index-1 }}]={ quote: "{{ quote.quote }}", speaker: "{{ quote.speaker }}" };{% endfor %}
+{% for contact in contacts %}contactCollection[{{ loop.index-1 }}]={ icon: "{{ contact.icon }}", name: "{{ contact.name }}", link: "{{ contact.link }}", salt: {{ contact.salt|lower }} };{% endfor %}
 </script>

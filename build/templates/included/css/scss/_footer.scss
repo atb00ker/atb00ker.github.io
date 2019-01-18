@@ -1,5 +1,6 @@
 .footer-informations {
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: 600;
     margin: 0;
     font-family: 'Timmana', sans-serif;
     color: black;
@@ -10,7 +11,7 @@
 footer a {
     font-size: 19px;
     margin-left: 10px;
-    color: grey;
+    color: #505050;
     font-family: 'Timmana', sans-serif;
 }
 footer a:hover {
@@ -32,7 +33,6 @@ footer a:hover {
     height: 45px;
     width: 45px;
     font-size: 30px;
-    line-height: 2;
     background-color: rgba(0,0,0,0.3);
     border-radius: 10px;
     
