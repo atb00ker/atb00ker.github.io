@@ -15,8 +15,10 @@
     {% include "partials/_timeline.jinja" %}
     {% include "partials/_footer.jinja" %}
     <!-- JavaScript -->
+    {% include "partials/_script.jinja" %}
     <script type="text/javascript">
-        {% include "included/js/minified/main.min.js" %}
+        {% include "included/js/minified/common.min.js" %}
+        {% include "included/js/minified/timeline.min.js" %}
     </script>
 </body>
 

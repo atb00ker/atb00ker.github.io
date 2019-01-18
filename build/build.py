@@ -1,10 +1,27 @@
 import glob
 import os
-from staticjinja import Site, Reloader
+from staticjinja import Site
+from staticjinja.reloader import Reloader
 from csscompressor import compress
 from rjsmin import jsmin
 import htmlmin
 import sass
+import time
+
+
+class WatchAction(Reloader):
+
+    def __init__(self, site):
+        super(WatchAction, self).__init__(site)
+        self.elapsed = time.time()
+
+    def event_handler(self, event_type, src_path):
+        self.current = time.time()
+        filename = os.path.relpath(src_path, self.searchpath)
+        if self.should_handle(event_type, src_path) and (self.current - self.elapsed > 2):
+            print("%s %s" % (event_type, filename))
+            self.elapsed = time.time()
+            self.site.render_action()
 
 
 class RenderJinja(Site):
@@ -13,16 +30,19 @@ class RenderJinja(Site):
         is_template = super(RenderJinja, self).is_template(filename)
         return is_template and filename.endswith("jinja")
 
-    def render(self, use_reloader=False):
+    def render_action(self):
         self.pre_render()
         self.render_templates(self.templates)
         self.post_render()
+
+    def render(self, use_reloader=False):
+        self.render_action()
 
         if use_reloader:
             self.logger.info("Watching '%s' for changes..." %
                              self.searchpath)
             self.logger.info("Press Ctrl+C to stop.")
-            Reloader(self).watch()
+            WatchAction(self).watch()
 
     def pre_render(self):
         '''
@@ -70,6 +90,8 @@ class RenderJinja(Site):
                                          remove_comments=True)
                 filename = os.path.splitext(os.path.basename(filepath))[0]
                 outname = os.path.join(path_root, filename + ".html")
+                if os.path.exists(outname):
+                    os.remove(outname)
                 with open(outname, 'w+') as outfile:
                     outfile.write(content)
             os.remove(filepath)
