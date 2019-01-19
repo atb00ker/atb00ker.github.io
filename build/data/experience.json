@@ -12,7 +12,7 @@
         "duration": "August 2018 – Present",
         "content": "Learned to write easily maintainable code & to coordinate with developers from different places on the globe.",
         "github": false,
-        "certificate": "assets/files/GCI2018.pdf",
+        "certificate": false,
         "link": false
     },
     {
@@ -20,7 +20,7 @@
         "duration": "September 2018 – December 2018",
         "content": "765 code reviews in 3 months - Organization ranked #1 by number of tasks completed. 950+ students participated and benefitted from the combined effort of 9 mentors.",
         "github": false,
-        "certificate": false,
+        "certificate": "assets/files/GCI2018.pdf",
         "link": false
     },
     {
