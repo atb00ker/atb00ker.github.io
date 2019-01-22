@@ -42,22 +42,22 @@
         "white": false
     },
     {
-        "image": "assets/images/skills/kutejs.webp",
+        "image": "assets/images/skills/kutejs.png",
         "title": "KuteJs",
         "special": false,
         "white": false
     },
     {
-        "image": "assets/images/skills/jinja.png",
+        "image": "assets/images/skills/jinja2.png",
         "title": "Jinja2",
         "special": false,
-        "white": true
+        "white": false
     },
     {
         "image": "assets/images/skills/pwa.png",
         "title": "Progressive Web Application",
         "special": false,
-        "white": true
+        "white": false
     },
     {
         "image": "assets/images/skills/dev-ops.svg",
@@ -102,7 +102,7 @@
         "white": true
     },
     {
-        "image": "assets/images/skills/nodejs.webp",
+        "image": "assets/images/skills/nodejs.png",
         "title": "NodeJs",
         "special": false,
         "white": true
@@ -168,14 +168,26 @@
         "white": false
     },
     {
-        "image": "assets/images/skills/tools.svg",
-        "title": "Tools",
+        "image": "assets/images/skills/more.svg",
+        "title": "More",
         "special": true,
-        "white": true
+        "white": false
     },
     {
         "image": "assets/images/skills/git.png",
         "title": "Git",
+        "special": false,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/markdown.png",
+        "title": "Markdown",
+        "special": false,
+        "white": true
+    },
+    {
+        "image": "assets/images/skills/regex.svg",
+        "title": "Regex",
         "special": false,
         "white": false
     },
@@ -192,12 +204,6 @@
         "white": false
     },
     {
-        "image": "assets/images/skills/scikitlearn.svg",
-        "title": "Sciket Learn",
-        "special": false,
-        "white": false
-    },
-    {
         "image": "assets/images/skills/scrapy.png",
         "title": "Scrapy",
         "special": false,
@@ -206,6 +212,12 @@
     {
         "image": "assets/images/skills/telegram-bots.png",
         "title": "Python-telegram-bots",
+        "special": false,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/scikitlearn.svg",
+        "title": "Sciket Learn",
         "special": false,
         "white": false
     },
