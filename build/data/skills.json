@@ -162,6 +162,12 @@
         "white": false
     },
     {
+        "image": "assets/images/skills/sqlite.svg",
+        "title": "SQLite",
+        "special": false,
+        "white": false
+    },
+    {
         "image": "assets/images/skills/postgresql.svg",
         "title": "PostgreSQL",
         "special": false,

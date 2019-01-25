@@ -52,10 +52,6 @@
         "speaker": "NULL"
     },
     {
-        "quote": "It takes passion to create art, not hard work.",
-        "speaker": "NULL"
-    },
-    {
         "quote": "Life is what happens while you are busy making excuses.",
         "speaker": "NULL"
     },
@@ -182,5 +178,9 @@
     {
         "quote": "Learning does not make one learned: there are those who have knowledge and those who have understanding.  The first requires memory and the second philosophy.",
         "speaker": "Alexandre Dumas, The Count of Monte Cristo"
+    },
+    {
+        "quote": "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.",
+        "speaker": "Marie Curie"
     }
 ]
