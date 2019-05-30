@@ -84,6 +84,18 @@
         "white": false
     },
     {
+        "image": "assets/images/skills/kubernetes.png",
+        "title": "Kubernetes",
+        "special": false,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/terraform.png",
+        "title": "Terraform",
+        "special": false,
+        "white": false
+    },
+    {
         "image": "assets/images/skills/back-end.svg",
         "title": "Backend Development",
         "special": true,
@@ -99,7 +111,7 @@
         "image": "assets/images/skills/flask.svg",
         "title": "Flask",
         "special": false,
-        "white": true
+        "white": false
     },
     {
         "image": "assets/images/skills/nodejs.png",
@@ -150,6 +162,12 @@
         "white": false
     },
     {
+        "image": "assets/images/skills/lua.svg",
+        "title": "Lua",
+        "special": false,
+        "white": false
+    },
+    {
         "image": "assets/images/skills/db.svg",
         "title": "Database",
         "special": true,
@@ -170,6 +188,18 @@
     {
         "image": "assets/images/skills/postgresql.svg",
         "title": "PostgreSQL",
+        "special": false,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/test-automation.svg",
+        "title": "Automated Testing",
+        "special": true,
+        "white": false
+    },
+    {
+        "image": "assets/images/skills/travis-ci.png",
+        "title": "Travis CI",
         "special": false,
         "white": false
     },
@@ -198,16 +228,22 @@
         "white": false
     },
     {
-        "image": "assets/images/skills/linux.svg",
+        "image": "assets/images/skills/linux.png",
         "title": "Linux",
         "special": false,
         "white": false
     },
     {
+        "image": "assets/images/skills/openwrt.png",
+        "title": "OpenWRT",
+        "special": false,
+        "white": true
+    },
+    {
         "image": "assets/images/skills/openwisp.png",
         "title": "OpenWISP",
         "special": false,
-        "white": false
+        "white": true
     },
     {
         "image": "assets/images/skills/scrapy.png",
@@ -225,18 +261,6 @@
         "image": "assets/images/skills/scikitlearn.svg",
         "title": "Sciket Learn",
         "special": false,
-        "white": false
-    },
-    {
-        "image": "assets/images/skills/test-automation.svg",
-        "title": "Automated Testing",
-        "special": true,
-        "white": false
-    },
-    {
-        "image": "assets/images/skills/travis-ci.png",
-        "title": "Travis CI",
-        "special": false,
-        "white": false
+        "white": true
     }
 ]

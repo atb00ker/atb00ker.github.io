@@ -1,8 +1,16 @@
 [
     {
+        "title": "Google Summer of Code, OpenWISP",
+        "duration": "May 2019 – September 2019",
+        "content": "The project aims to solve the problem of complex deployment of OpenWISP application by dockerizing the OpenWISP modules to give users plug-and-play docker images that are compatible and ready to run in kubernetes clusters simply by changing the environment variables.",
+        "github": "https://github.com/openwisp/docker-openwisp",
+        "certificate": "assets/files/GSoC2019.pdf",
+        "link": "https://summerofcode.withgoogle.com/projects/#5950853377163264"
+    },
+    {
         "title": "FOSSEE Fellowship, IIT Bombay",
         "duration": "May 2018 – July 2018",
-        "content": "Worked in Spoken Tutorial Project (spoken-tutorial.org).Site optimization: About 60% less data requirement for users during download. <br> Web Development: Using Django, added the features to edit / show user testimonials on the main site of spoken-tutorial project.",
+        "content": "Worked in Spoken Tutorial Project (spoken-tutorial.org). Optimized data usage to upto 60% less data requirement for users during download. <br> Web Development: Using Django, added the features to edit / show user testimonials on the main site of spoken-tutorial project.",
         "github": false,
         "certificate": "assets/files/FOSSEEcertificate.pdf",
         "link": false
@@ -10,13 +18,13 @@
     {
         "title": "OpenWISP, Open-Source Contributor",
         "duration": "August 2018 – Present",
-        "content": "Learned to write easily maintainable code & to coordinate with developers from different places on the globe.",
+        "content": "Contributed to code development of OpenWISP, an open-source Network Management suite for large networks. Learned to write easily maintainable code under the guidance of experienced developers and learned to coordinate with developers from different places around the world. I have worked on ansible-openwisp2 and controller (django) modules to add various features and fix bugs.",
         "github": false,
         "certificate": false,
         "link": false
     },
     {
-        "title": "Google Code-In 2018, Mentor ",
+        "title": "Google Code-In 2018, Mentor",
         "duration": "September 2018 – December 2018",
         "content": "765 code reviews in 3 months - Organization ranked #1 by number of tasks completed. 950+ students participated and benefitted from the combined effort of 9 mentors.",
         "github": false,
