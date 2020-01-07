@@ -1,5 +1,13 @@
 [
     {
+        "title": "OpenWISP, Open-Source Contributor",
+        "duration": "August 2018 – Present",
+        "content": "Contributed to code development of OpenWISP, an open-source Network Management suite for large networks. Learned to write easily maintainable code under the guidance of experienced developers and learned to coordinate with developers from different places around the world. I have worked on ansible-openwisp2 and controller (django) modules to add various features and fix bugs.",
+        "github": false,
+        "certificate": false,
+        "link": false
+    },
+    {
         "title": "Google Summer of Code, OpenWISP",
         "duration": "May 2019 – September 2019",
         "content": "The project aims to solve the problem of complex deployment of OpenWISP application by dockerizing the OpenWISP modules to give users plug-and-play docker images that are compatible and ready to run in kubernetes clusters simply by changing the environment variables.",
@@ -13,14 +21,6 @@
         "content": "Worked in Spoken Tutorial Project (spoken-tutorial.org). Optimized data usage to upto 60% less data requirement for users during download. <br> Web Development: Using Django, added the features to edit / show user testimonials on the main site of spoken-tutorial project.",
         "github": false,
         "certificate": "assets/files/FOSSEEcertificate.pdf",
-        "link": false
-    },
-    {
-        "title": "OpenWISP, Open-Source Contributor",
-        "duration": "August 2018 – Present",
-        "content": "Contributed to code development of OpenWISP, an open-source Network Management suite for large networks. Learned to write easily maintainable code under the guidance of experienced developers and learned to coordinate with developers from different places around the world. I have worked on ansible-openwisp2 and controller (django) modules to add various features and fix bugs.",
-        "github": false,
-        "certificate": false,
         "link": false
     },
     {
@@ -54,21 +54,5 @@
         "github": "https://github.com/atb00ker/scrape",
         "certificate": false,
         "link": false
-    },
-    {
-        "title": "ALiAS Website, Progressive Web Application",
-        "duration": "August 2017 – October 2017",
-        "content": "Made a progressive Web App for Amity Linux User Group (ALiAS). Ensuring the fastest possible delivery, offline availability, aesthetically pleasing and push notifications for the website.",
-        "github": "https://github.com/atb00ker/asetalias.github.io",
-        "certificate": false,
-        "link": "https://atb00ker.github.io/asetalias.github.io/"
-    },
-    {
-        "title": "Exposure Website, Frontend Development",
-        "duration": "August 2017 – October 2017",
-        "content": "Made a progressive Web App for Amity Linux User Group (ALiAS). Ensuring the fastest possible delivery, offline availability, aesthetically pleasing and push notifications for the website.",
-        "github": "https://github.com/atb00ker/exposure.github.io",
-        "certificate": false,
-        "link": "https://atb00ker.github.io/exposure.github.io/"
     }
 ]

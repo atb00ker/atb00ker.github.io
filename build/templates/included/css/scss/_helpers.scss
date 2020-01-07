@@ -103,7 +103,7 @@ a {
 }
 
 #snackbar-easter-egg.show {
-    @extend #snackbar.show;
+    @extend #snackbar, .show;
 }
 
 .hidden {

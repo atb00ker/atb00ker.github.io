@@ -84,6 +84,12 @@
         "white": false
     },
     {
+        "image": "assets/images/skills/google-cloud.svg",
+        "title": "Google Cloud",
+        "special": false,
+        "white": false
+    },
+    {
         "image": "assets/images/skills/kubernetes.png",
         "title": "Kubernetes",
         "special": false,
