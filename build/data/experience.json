@@ -9,11 +9,18 @@
     },
     {
         "title": "Google Summer of Code, OpenWISP",
+        "duration": "May 2020 – September 2020",
+        "content": "The primary aim of the work done for this project is to improve the maintainability of OpenWISP. OpenWISP comprises of various modules but overtime we learned that the division of modules was not done in the most efficient manner possible causing maintenance overhead. To avoid this overhead, I have to refactor and rewrite alot of code to merge modules and clean-up the older practices.",
+        "certificate": "assets/files/GSoC2020.pdf",
+        "link": "https://summerofcode.withgoogle.com/archive/2020/projects/6276751581249536/"
+    },
+    {
+        "title": "Google Summer of Code, OpenWISP",
         "duration": "May 2019 – September 2019",
         "content": "The project aims to solve the problem of complex deployment of OpenWISP application by dockerizing the OpenWISP modules to give users plug-and-play docker images that are compatible and ready to run in kubernetes clusters simply by changing the environment variables.",
         "github": "https://github.com/openwisp/docker-openwisp",
         "certificate": "assets/files/GSoC2019.pdf",
-        "link": "https://summerofcode.withgoogle.com/projects/#5950853377163264"
+        "link": "https://summerofcode.withgoogle.com/archive/2019/projects/6285865729392640/"
     },
     {
         "title": "FOSSEE Fellowship, IIT Bombay",

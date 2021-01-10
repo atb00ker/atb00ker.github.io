@@ -268,5 +268,11 @@
         "title": "Sciket Learn",
         "special": false,
         "white": true
+    },
+    {
+        "image": "assets/images/skills/elastic-search.svg",
+        "title": "Elastic Search",
+        "special": false,
+        "white": false
     }
 ]

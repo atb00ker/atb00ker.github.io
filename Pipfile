@@ -13,7 +13,6 @@ rjsmin = "*"
 htmlmin = "*"
 csscompressor = "*"
 libsass = "*"
-pipfile = "*"
 
 [requires]
 python_version = "3.7"

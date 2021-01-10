@@ -1,14 +1,8 @@
 [
     {
-        "icon": "fab fa-telegram-plane",
-        "name": "Telegram",
-        "link": "https://web.telegram.org/#/im?p=@atb00ker",
-        "salt": false
-    },
-    {
-        "icon": "fab fa-twitter",
-        "name": "Twitter",
-        "link": "https://twitter.com/atb00ker",
+        "icon": "fas fa-user-secret",
+        "name": "Keybase",
+        "link": "https://keybase.io/atb00ker",
         "salt": false
     },
     {
@@ -66,12 +60,6 @@
         "salt": true
     },
     {
-        "icon": "fab fa-google-plus",
-        "name": "Google Plus",
-        "link": "https: //plus.google.com/114619296012496857092",
-        "salt": true
-    },
-    {
         "icon": "fa fa-globe",
         "name": "Hacker Earth",
         "link": "http://www.hackerearth.com/@atb00ker",
@@ -86,31 +74,31 @@
     {
         "icon": "fab fa-instagram",
         "name": "Instagram",
-        "link": "https: //www.instagram.com/atb00ker",
+        "link": "https://www.instagram.com/atb00ker",
         "salt": true
     },
     {
         "icon": "fab fa-facebook-square",
         "name": "Facebook",
-        "link": "https: //www.facebook.com/atb00ker",
+        "link": "https://www.facebook.com/atb00ker",
         "salt": true
     },
     {
         "icon": "fab fa-slideshare",
         "name": "Slides",
-        "link": "https: //slides.com/atb00ker",
+        "link": "https://slides.com/atb00ker",
         "salt": true
     },
     {
         "icon": "fas fa-dice-d20",
         "name": "Ubisoft",
-        "link": "https: //club.ubisoft.com/en-GB/profile/atb00ker",
+        "link": "https://club.ubisoft.com/en-GB/profile/atb00ker",
         "salt": true
     },
     {
         "icon": "fas fa-trophy",
         "name": "Origin",
-        "link": "https: //www.origin.com/ind/en-us/profile/user/BobyAWXzmLlf6NasXubNEw--/achievements",
+        "link": "https://www.origin.com/ind/en-us/profile/user/BobyAWXzmLlf6NasXubNEw--/achievements",
         "salt": true
     }
 ]
