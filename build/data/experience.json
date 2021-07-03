@@ -1,5 +1,13 @@
 [
     {
+        "title": "Icertis, Unified Product Developer",
+        "duration": "July 2020 – Present",
+        "content": "My first Full-time job, worked in the product team to make deliver the ICI software to clients in an agile environment. Moreover, made improvements to some smaller facets of the development process like automating developer installation process & having a centralised idea crowdsouring platform.",
+        "github": false,
+        "certificate": "assets/files/StarAward.pdf",
+        "link": false
+    },
+    {
         "title": "OpenWISP, Open-Source Contributor",
         "duration": "August 2018 – Present",
         "content": "Contributed to code development of OpenWISP, an open-source Network Management suite for large networks. Learned to write easily maintainable code under the guidance of experienced developers and learned to coordinate with developers from different places around the world. I have worked on ansible-openwisp2 and controller (django) modules to add various features and fix bugs.",
@@ -31,35 +39,11 @@
         "link": false
     },
     {
-        "title": "Google Code-In 2018, Mentor",
+        "title": "Google Code-In 2018 & 2019, Mentor",
         "duration": "September 2018 – December 2018",
         "content": "765 code reviews in 3 months - Organization ranked #1 by number of tasks completed. 950+ students participated and benefitted from the combined effort of 9 mentors.",
         "github": false,
         "certificate": "assets/files/GCI2018.pdf",
-        "link": false
-    },
-    {
-        "title": "Lookbook, Modern Frontend Workflow",
-        "duration": "January 2019 –February 2019",
-        "content": "Using modern front end development tools like static jinja, created a reusable profile information website the is highly optimised and follows latest recommendations and guidelines.",
-        "github": "https://github.com/atb00ker/atb00ker.github.io",
-        "certificate": false,
-        "link": "https://atb00ker.github.io/"
-    },
-    {
-        "title": "Synapse, DevOps",
-        "duration": "January 2018 – March 2018",
-        "content": "Learned to write easily maintainable code & to coordinate with developers from different places on the globe.",
-        "github": "https://github.com/atb00ker/ansible-matrix-synapse",
-        "certificate": false,
-        "link": "https://galaxy.ansible.com/atb00ker/matrix-synapse"
-    },
-    {
-        "title": "Detect Fake News, Application Development | System Administration",
-        "duration": "September 2017 – January 2018",
-        "content": "Scraped articles from 10+ news websites 24/7 on a Linux server and stored the data in a database server.  We collected about 12 million records and used Machine Learning to classify and categorize the news.",
-        "github": "https://github.com/atb00ker/scrape",
-        "certificate": false,
         "link": false
     }
 ]

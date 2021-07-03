@@ -13,7 +13,7 @@ Getting started:
 
 ```bash
 $ pip install pipenv
-$ pipenv install .
+$ pipenv install
 $ pipenv shell
 $ cd build/
 $ python build.py
